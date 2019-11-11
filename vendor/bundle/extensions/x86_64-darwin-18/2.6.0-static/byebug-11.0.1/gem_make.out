@@ -1,0 +1,19 @@
+current directory: /Users/JF/code/JFMedard/rails-longest-word-game/vendor/bundle/gems/byebug-11.0.1/ext/byebug
+/Users/JF/.rbenv/versions/2.6.3/bin/ruby -I /Users/JF/.rbenv/versions/2.6.3/lib/ruby/2.6.0 -r ./siteconf20191111-33270-1h2rrhp.rb extconf.rb
+creating Makefile
+
+current directory: /Users/JF/code/JFMedard/rails-longest-word-game/vendor/bundle/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /Users/JF/code/JFMedard/rails-longest-word-game/vendor/bundle/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.bundle
+
+current directory: /Users/JF/code/JFMedard/rails-longest-word-game/vendor/bundle/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR=" install
+/usr/local/bin/ginstall -c -m 0755 byebug.bundle ./.gem.20191111-33270-17sbefl/byebug

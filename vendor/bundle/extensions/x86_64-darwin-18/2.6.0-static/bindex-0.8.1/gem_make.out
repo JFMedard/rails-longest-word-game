@@ -1,0 +1,15 @@
+current directory: /Users/JF/code/JFMedard/rails-longest-word-game/vendor/bundle/gems/bindex-0.8.1/ext/skiptrace
+/Users/JF/.rbenv/versions/2.6.3/bin/ruby -I /Users/JF/.rbenv/versions/2.6.3/lib/ruby/2.6.0 -r ./siteconf20191111-33270-vwrjeb.rb extconf.rb
+creating Makefile
+
+current directory: /Users/JF/code/JFMedard/rails-longest-word-game/vendor/bundle/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /Users/JF/code/JFMedard/rails-longest-word-game/vendor/bundle/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+
+current directory: /Users/JF/code/JFMedard/rails-longest-word-game/vendor/bundle/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/local/bin/ginstall -c -m 0755 cruby.bundle ./.gem.20191111-33270-10dsrp1/skiptrace/internal

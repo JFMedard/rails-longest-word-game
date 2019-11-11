@@ -1,0 +1,23 @@
+
+
+<div class="container">
+  <h1 class="text-center">Romejko Gang</h1>
+
+  <p>Find a word!</p>
+  <ul class="row text-center">
+  <% @letters.each do |letter|  %>
+  <div class="col alert alert-primary text-center m-2"><%= letter %></div>
+  <% end %>
+  </ul>
+  <br>
+  <div class="card mt-3">
+    <h2 class="text-align m-2">Submit your word:</h2>
+    <br>
+    <form action="/score" class="form-group m-2" method="POST">
+      <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+      <input type="text" name="word" class="form-control">
+      <br>
+      <input type="submit" value="Ask!" class="btn btn-primary">
+    </form>
+  </div>
+</div>
